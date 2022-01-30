@@ -45,6 +45,7 @@ const Contact = ()=>{
             subject:formSate.subject,
             message:formSate.message
         };
+        console.log(process.env.REACT_APP_EMAIL_SERVICE,'magic');
         emailjs.send(process.env.REACT_APP_EMAIL_SERVICE,process.env.REACT_APP_EMAIL_TEMPLATE, templateParams, process.env.REACT_APP_EMAIL_USERID)
         .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
