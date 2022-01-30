@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.formTitle{
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formTitle::before{
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.socials ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.socials ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: auto;
+  height: 100vh;
+  z-index: 999999;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.react-spinner-loader-svg-calLoader {
+  width: 230px;
+  height: 230px;
+  transform-origin: 115px 115px;
+  animation: 0.9s linear infinite loader-spin !important;
+  -webkit-animation: 0.9s linear infinite loader-spin !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.react-spinner-loader-svg-cal-loader__path {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  animation: 0.9s ease-in-out infinite loader-path !important;
+  -webkit-animation: 0.9s ease-in-out infinite loader-path !important;
 }
