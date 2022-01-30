@@ -8,7 +8,7 @@ const Blogs = () => {
             setloadBlogs(false);
          },1300);
          return ()=>clearTimeout(timer);
-    },[]);
+    },[]); 
     return (
         <section className="mb-5">
             <div className="container">
