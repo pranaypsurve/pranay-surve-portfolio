@@ -5,7 +5,7 @@ import About from './components/About/About';
 import Project from './components/Project/Project';
 import Resume from './components/Resume/Resume';
 import Contact from './components/Contact';
-import Blogs from "./components/Blogs/Blogs";
+// import Blogs from "./components/Blogs/Blogs";
 import Navbar from './components/Navbar';
 import {BrowserRouter , Route , Switch} from 'react-router-dom';
 import Loader from "react-loader-spinner";
