@@ -1,7 +1,5 @@
 import React , {useState,useEffect} from 'react'; 
 const Blogs = () => {
-    // console.log('projects');
-    // document.title="Blogs";
     const [loadBlogs, setloadBlogs] = useState(true);
     useEffect(()=>{
         let timer = setTimeout(()=>{

@@ -57,7 +57,7 @@ const App = ()=>{
         <Route exact path='/project' component={Project} />
         <Route exact path='/resume' component={Resume} />
         <Route exact path='/contact' component={Contact} />
-        <Route exact path='/blogs' component={Blogs} />
+        {/* <Route exact path='/blogs' component={Blogs} /> */}
       </Switch>
       {/* <Contact /> */}
     </React.Fragment>)
