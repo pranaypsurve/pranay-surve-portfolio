@@ -5,7 +5,7 @@ const Project = () => {
     // console.log('projects');
     document.title="Projects";
     return (
-        <section className="mb-5">
+        <section className="pb-5 bg-white">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 mt-5">

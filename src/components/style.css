@@ -11,6 +11,9 @@ html {
   background: aquamarine;
   padding: 10px;
 }
+.react-pdf__Document .react-pdf__Page canvas.react-pdf__Page__canvas{
+  margin:auto !important;
+}
 .homeBanner {
   /* background-image: url("../../public/assests/images/homebanner.jpg"); */
   /* background: #ffcb05; */

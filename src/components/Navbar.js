@@ -39,7 +39,7 @@ const Navbar = () => {
                 <NavLink exact className="nav-link" to="/project"><OpenInNewIcon style={{ marginBottom: "6px" }} /> Projects</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink exact className="nav-link" to="/resume"><WorkOutlineIcon style={{ marginBottom: "6px" }} /> Hire Me</NavLink>
+                <NavLink exact className="nav-link" to="/resume"><WorkOutlineIcon style={{ marginBottom: "6px" }} /> Resume</NavLink>
               </li>
               <li className="nav-item">
                 {/* <Link className="nav-link" to="contactSection" smooth={true} duration={1000}>Reach Me</Link> */}

@@ -79,6 +79,12 @@ const About = () => {
                                                 </div>
                                             </div>
                                             <div>
+                                                <p className="lead mb-1 mt-2">Node js</p>
+                                                <div className="progress" >
+                                                    <div className="progress-bar" role="progressbar" style={{width: "45%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
                                                 <p className="lead mb-1 mt-2">MongoDb</p>
                                                 <div className="progress" >
                                                     <div className="progress-bar" role="progressbar" style={{width: "45%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -102,6 +108,12 @@ const About = () => {
                                                 <p className="lead mb-1 mt-2">React</p>
                                                 <div className="progress" >
                                                     <div className="progress-bar" role="progressbar" style={{width: "55%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p className="lead mb-1 mt-2">Express js</p>
+                                                <div className="progress" >
+                                                    <div className="progress-bar" role="progressbar" style={{width: "48%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                                 </div>
                                             </div>
                                             <div>

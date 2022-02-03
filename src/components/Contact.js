@@ -103,8 +103,10 @@ const Contact = ()=>{
                                 </p>
                                 <div className='socials'>
                                     <ul>
-                                        <li><a href='https://github.com/pranaypsurve' target="_blank"><GitHubIcon style={{fontSize:"30px"}}></GitHubIcon></a></li>
-                                        <li><a href='https://in.linkedin.com/in/pranay-surve-63b203193' target="_blank"><LinkedInIcon style={{fontSize:"30px"}}></LinkedInIcon></a></li>
+                                        <li><a href='https://github.com/pranaypsurve' target="_blank" title="Check My Github Repos"><GitHubIcon style={{fontSize:"30px",color:"black"}}></GitHubIcon></a></li>
+                                        <li><a href='https://in.linkedin.com/in/pranay-surve-63b203193' target="_blank" title="Connect on Linkedin"><LinkedInIcon style={{fontSize:"30px"}}></LinkedInIcon></a></li>
+                                        <li><a href='https://gitlab.com/pranaysurve' target="_blank" title="Check My Gitlab Repos"><span style={{fontSize:"30px",color:"orange"}} class="iconify" data-icon="mdi:gitlab"></span></a></li>
+                                        <li><a href='https://stackoverflow.com/users/18109068/pranay-surve' target="_blank" title="Stackoverflow the Heaven"><span style={{fontSize:"30px",color: '#f48024'}} class="iconify" data-icon="mdi:stack-overflow"></span></a></li>
                                     </ul>
                                 </div>
                             </div>
