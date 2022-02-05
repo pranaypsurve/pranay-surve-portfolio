@@ -42,7 +42,7 @@ const Resume = ()=>{
                 <div className="row">
                     <div className="col-md-12 mt-5">
                         <div className="text-center text-break">
-                            {fetchResume?(<h1>Loading..<span className="spinner-border text-secondary" role="status" aria-hidden="true"></span></h1>):(<> <Document file="/PHP_Web_Developer_Resume_2022.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+                            {fetchResume?(<h1>Loading..<span className="spinner-border text-secondary" role="status" aria-hidden="true"></span></h1>):(<> <Document file="/resume_pranay_surve_react.pdf" onLoadSuccess={onDocumentLoadSuccess}>
                             <Page pageNumber={pageNumber}  scale={width < 1024 ? 0.5 : 1.7} />
                         </Document> 
                             <p style={{paddingTop:'10px',fontSize:'x-large'}} className='text-center'>Page {pageNumber} of {numPages} &nbsp;
