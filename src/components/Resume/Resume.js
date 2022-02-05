@@ -54,7 +54,7 @@ const Resume = ()=>{
                             </p></>)}
                         </div>
                         <div className='text-center mb-3'>
-                        <a href="/PHP_Web_Developer_Resume_2022.pdf" className='btn btn-warning' target="_blank" download="/PHP_Web_Developer_Resume_2022.pdf"><FileDownloadIcon /> Download Resume</a>
+                        <a href="/resume_pranay_surve_react.pdf" className='btn btn-warning' target="_blank" download="/resume_pranay_surve_react.pdf"><FileDownloadIcon /> Download Resume</a>
                         </div>
                        
                     </div>
