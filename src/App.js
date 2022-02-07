@@ -12,6 +12,7 @@ import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import './App.css';
 import Getintouch from "./components/Getintouch";
+import PageNotFound from "./components/PageNotFound";
 const App = ()=>{
   const [load, upadateLoad] = useState(true);
 
@@ -57,6 +58,7 @@ const App = ()=>{
         <Route exact path='/project' component={Project} />
         <Route exact path='/resume' component={Resume} />
         <Route exact path='/contact' component={Contact} />
+        <Route component={PageNotFound} />
         {/* <Route exact path='/blogs' component={Blogs} /> */}
       </Switch>
       {/* <Contact /> */}

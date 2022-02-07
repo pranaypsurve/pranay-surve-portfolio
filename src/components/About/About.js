@@ -1,8 +1,16 @@
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import { useEffect } from 'react';
+import { useLocation, useParams } from 'react-router-dom';
 // import aboutImage from '../../';
 const About = () => {
     document.title="About";
-    // console.log(process.env.PUBLIC_URL);
+    // const query = new URLSearchParams(useLocation().search);
+    // console.log(query.get('name'));
+    // console.log(query.get('surname'));
+    useEffect(()=>{
+        window.scroll(0,0);
+        // console.log(useLocation());
+    },[]);
     return (
         <>
             <section className="aboutus" >

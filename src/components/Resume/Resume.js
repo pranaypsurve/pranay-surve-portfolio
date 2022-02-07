@@ -19,8 +19,6 @@ const Resume = ()=>{
          return ()=>clearTimeout(timer);
     },[]);
 
-   
-
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
